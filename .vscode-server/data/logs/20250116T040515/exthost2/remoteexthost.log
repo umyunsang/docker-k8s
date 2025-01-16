@@ -25,3 +25,16 @@
 2025-01-16 04:16:29.157 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
 2025-01-16 04:16:30.123 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
 2025-01-16 05:57:29.325 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-01-16 06:03:41.486 [error] AggregateError: 
+	at internalConnectMultiple (node:net:1122:18)
+	at internalConnectMultiple (node:net:1190:5)
+	at Timeout.internalConnectMultipleTimeout (node:net:1716:5)
+	at listOnTimeout (node:internal/timers:583:11)
+	at process.processTimers (node:internal/timers:519:7)
+2025-01-16 06:03:44.357 [error] AggregateError: 
+	at internalConnectMultiple (node:net:1122:18)
+	at internalConnectMultiple (node:net:1190:5)
+	at Timeout.internalConnectMultipleTimeout (node:net:1716:5)
+	at listOnTimeout (node:internal/timers:583:11)
+	at process.processTimers (node:internal/timers:519:7)
+2025-01-16 06:03:47.421 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
