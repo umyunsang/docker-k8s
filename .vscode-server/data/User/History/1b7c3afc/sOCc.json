@@ -1,0 +1,21 @@
+{
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "cmake.configureOnOpen": true,
+    "code-runner.runInTerminal": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.minimap.enabled": false,
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "explorer.confirmDelete": false,
+    "remote.SSH.remotePlatform": {
+        "116.124.191.174": "linux",
+        "192.168.11.10": "linux"
+    },
+    "java.debug.settings.console": "internalConsole",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path-linux": "/root/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vscode-kubernetes.minikube-path-linux": "/root/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
+    }
+}

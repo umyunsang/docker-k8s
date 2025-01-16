@@ -65,3 +65,7 @@
 2025-01-16 01:00:50.056 [info] [<unknown>][6a3ec006][ExtensionHostConnection] <4697> Launched Extension Host Process.
 2025-01-16 01:00:50.087 [info] [<unknown>][6a3ec006][ExtensionHostConnection] <4697><stderr> Error reading NLS messages file /root/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/91fbdddc47bc9c09064bf7acf133d22631cbf083/nls.messages.json: Error: ENOENT: no such file or directory, open '/root/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/91fbdddc47bc9c09064bf7acf133d22631cbf083/nls.messages.json'
 
+2025-01-16 01:05:45.828 [info] New EH opened, aborting shutdown
+2025-01-16 01:05:45.830 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/server-main.js:184:1060)
+    at process.emit (node:events:530:35)
