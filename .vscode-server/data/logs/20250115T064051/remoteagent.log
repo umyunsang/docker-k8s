@@ -1,0 +1,12 @@
+2025-01-15 06:40:51.886 [info] 
+
+
+
+
+2025-01-15 06:40:51.909 [info] Extension host agent started.
+2025-01-15 06:40:52.031 [info] [<unknown>][c99b2abf][ManagementConnection] New connection established.
+2025-01-15 06:40:52.036 [info] [<unknown>][451a8d68][ExtensionHostConnection] New connection established.
+2025-01-15 06:40:53.093 [info] [<unknown>][451a8d68][ExtensionHostConnection] <2405> Launched Extension Host Process.
+2025-01-15 06:40:53.195 [info] [<unknown>][451a8d68][ExtensionHostConnection] <2405><stderr> Error reading NLS messages file /root/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/91fbdddc47bc9c09064bf7acf133d22631cbf083/nls.messages.json: Error: ENOENT: no such file or directory, open '/root/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/91fbdddc47bc9c09064bf7acf133d22631cbf083/nls.messages.json'
+
+2025-01-15 06:45:51.022 [info] New EH opened, aborting shutdown

@@ -1,0 +1,36 @@
+2025-01-14 07:09:48.589 [info] 
+
+
+
+
+2025-01-14 07:09:48.596 [info] Extension host agent started.
+2025-01-14 07:09:48.638 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2025-01-14 07:09:48.647 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2025-01-14 07:09:48.649 [info] [<unknown>][089e2ebd][ManagementConnection] New connection established.
+2025-01-14 07:09:48.657 [info] [<unknown>][09a79b7e][ExtensionHostConnection] New connection established.
+2025-01-14 07:09:48.704 [info] [<unknown>][09a79b7e][ExtensionHostConnection] <1672> Launched Extension Host Process.
+2025-01-14 07:09:48.753 [info] Installing extensions...
+2025-01-14 07:09:49.608 [info] Installing extension 'ms-ceintl.vscode-language-pack-ko'...
+2025-01-14 07:09:49.920 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ko
+2025-01-14 07:09:49.969 [info] Installing extension: ms-ceintl.vscode-language-pack-ko {"isMachineScoped":true,"isBuiltin":false,"installGivenVersion":false,"isApplicationScoped":true,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.3","date":"2025-01-09T18:14:09.060Z"}}
+2025-01-14 07:09:50.963 [error] [network] #7: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-01-14 07:09:51.700 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-ko: Success. Executed: true. Duration: 954ms.
+2025-01-14 07:09:51.849 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ko-1.96.2024121109: ms-ceintl.vscode-language-pack-ko
+2025-01-14 07:09:51.867 [info] Renamed to /root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ko-1.96.2024121109
+2025-01-14 07:09:51.874 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ko
+2025-01-14 07:09:51.897 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ko file:///root/.vscode-server/extensions/extensions.json
+2025-01-14 07:09:51.898 [info] Extension 'ms-ceintl.vscode-language-pack-ko' v1.96.2024121109 was successfully installed.
+2025-01-14 07:10:48.343 [info] [<unknown>][089e2ebd][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-14 07:10:48.375 [info] [<unknown>][09a79b7e][ExtensionHostConnection] <1672> Extension Host Process exited with code: 0, signal: null.
+2025-01-14 07:10:48.376 [info] Cancelling previous shutdown timeout
+2025-01-14 07:10:48.377 [info] Last EH closed, waiting before shutting down
+2025-01-14 07:10:53.334 [info] [<unknown>][63013228][ExtensionHostConnection] New connection established.
+2025-01-14 07:10:53.334 [info] [<unknown>][7b13497d][ManagementConnection] New connection established.
+2025-01-14 07:10:53.337 [info] [<unknown>][63013228][ExtensionHostConnection] <1956> Launched Extension Host Process.
+2025-01-14 07:15:48.379 [info] New EH opened, aborting shutdown
+2025-01-14 07:15:48.382 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/server-main.js:184:1060)
+    at process.emit (node:events:530:35)
+2025-01-14 07:17:41.772 [info] [<unknown>][7b13497d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-14 07:17:41.873 [info] [<unknown>][63013228][ExtensionHostConnection] <1956> Extension Host Process exited with code: 0, signal: null.
+2025-01-14 07:17:41.874 [info] Last EH closed, waiting before shutting down

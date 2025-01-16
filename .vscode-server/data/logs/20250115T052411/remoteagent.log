@@ -1,0 +1,34 @@
+2025-01-15 05:24:11.332 [info] 
+
+
+
+
+2025-01-15 05:24:11.342 [info] Extension host agent started.
+2025-01-15 05:24:11.396 [info] [<unknown>][d7b24027][ExtensionHostConnection] New connection established.
+2025-01-15 05:24:11.399 [info] [<unknown>][a41bc16e][ManagementConnection] New connection established.
+2025-01-15 05:24:11.454 [info] [<unknown>][d7b24027][ExtensionHostConnection] <2269> Launched Extension Host Process.
+2025-01-15 05:29:11.344 [info] New EH opened, aborting shutdown
+2025-01-15 05:35:02.489 [info] [<unknown>][a41bc16e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-15 05:35:02.521 [info] [<unknown>][d7b24027][ExtensionHostConnection] <2269> Extension Host Process exited with code: 0, signal: null.
+2025-01-15 05:35:02.523 [info] Last EH closed, waiting before shutting down
+2025-01-15 05:36:45.151 [info] [<unknown>][1900afa7][ManagementConnection] New connection established.
+2025-01-15 05:36:45.154 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/server-main.js:184:1060)
+    at process.emit (node:events:530:35)
+2025-01-15 05:36:45.159 [info] [<unknown>][bef01531][ExtensionHostConnection] New connection established.
+2025-01-15 05:36:45.163 [info] [<unknown>][bef01531][ExtensionHostConnection] <8214> Launched Extension Host Process.
+2025-01-15 05:36:47.512 [error] CodeExpectedError: Could not find pty 3 on pty host
+    at I.W (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at us.value (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-01-15 05:40:02.525 [info] New EH opened, aborting shutdown

@@ -1,0 +1,20 @@
+2025-01-14 07:39:23.995 [info] 
+
+
+
+
+2025-01-14 07:39:24.003 [info] Extension host agent started.
+2025-01-14 07:39:24.054 [info] [<unknown>][87322012][ManagementConnection] New connection established.
+2025-01-14 07:39:24.057 [info] [<unknown>][85faecf6][ExtensionHostConnection] New connection established.
+2025-01-14 07:39:24.121 [info] [<unknown>][85faecf6][ExtensionHostConnection] <1652> Launched Extension Host Process.
+2025-01-14 07:43:28.071 [info] [<unknown>][87322012][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-14 07:43:28.109 [info] [<unknown>][85faecf6][ExtensionHostConnection] <1652> Extension Host Process exited with code: 0, signal: null.
+2025-01-14 07:43:28.109 [info] Cancelling previous shutdown timeout
+2025-01-14 07:43:28.109 [info] Last EH closed, waiting before shutting down
+2025-01-14 07:43:33.098 [info] [<unknown>][56586f9c][ExtensionHostConnection] New connection established.
+2025-01-14 07:43:33.099 [info] [<unknown>][9fb9bac8][ManagementConnection] New connection established.
+2025-01-14 07:43:33.101 [info] [<unknown>][56586f9c][ExtensionHostConnection] <3017> Launched Extension Host Process.
+2025-01-14 07:48:28.112 [info] New EH opened, aborting shutdown
+2025-01-14 07:48:28.116 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/server-main.js:184:1060)
+    at process.emit (node:events:530:35)

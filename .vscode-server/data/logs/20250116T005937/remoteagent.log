@@ -1,0 +1,67 @@
+2025-01-16 00:59:37.294 [info] 
+
+
+
+
+2025-01-16 00:59:37.310 [info] Extension host agent started.
+2025-01-16 00:59:37.413 [info] [<unknown>][e37d6bbf][ExtensionHostConnection] New connection established.
+2025-01-16 00:59:37.420 [info] [<unknown>][8824b845][ManagementConnection] New connection established.
+2025-01-16 00:59:37.461 [info] Deleted uninstalled extension from disk oderwat.indent-rainbow /root/.vscode-server/extensions/oderwat.indent-rainbow-8.3.1
+2025-01-16 00:59:38.304 [info] [<unknown>][e37d6bbf][ExtensionHostConnection] <3656> Launched Extension Host Process.
+2025-01-16 00:59:38.378 [info] [<unknown>][e37d6bbf][ExtensionHostConnection] <3656><stderr> Error reading NLS messages file /root/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/91fbdddc47bc9c09064bf7acf133d22631cbf083/nls.messages.json: Error: ENOENT: no such file or directory, open '/root/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/91fbdddc47bc9c09064bf7acf133d22631cbf083/nls.messages.json'
+
+2025-01-16 00:59:45.905 [info] [<unknown>][8824b845][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-16 00:59:45.944 [info] [<unknown>][e37d6bbf][ExtensionHostConnection] <3656> Extension Host Process exited with code: 0, signal: null.
+2025-01-16 00:59:45.944 [info] Cancelling previous shutdown timeout
+2025-01-16 00:59:45.944 [info] Last EH closed, waiting before shutting down
+2025-01-16 00:59:49.836 [info] [<unknown>][09eed12f][ExtensionHostConnection] New connection established.
+2025-01-16 00:59:49.837 [info] [<unknown>][faa42f3e][ManagementConnection] New connection established.
+2025-01-16 00:59:49.839 [info] [<unknown>][09eed12f][ExtensionHostConnection] <3911> Launched Extension Host Process.
+2025-01-16 00:59:49.922 [info] [<unknown>][09eed12f][ExtensionHostConnection] <3911><stderr> Error reading NLS messages file /root/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/91fbdddc47bc9c09064bf7acf133d22631cbf083/nls.messages.json: Error: ENOENT: no such file or directory, open '/root/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/91fbdddc47bc9c09064bf7acf133d22631cbf083/nls.messages.json'
+
+2025-01-16 00:59:52.374 [error] CodeExpectedError: Could not find pty 18 on pty host
+    at I.W (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at us.value (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-01-16 01:00:31.412 [info] [<unknown>][faa42f3e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-16 01:00:31.453 [info] [<unknown>][09eed12f][ExtensionHostConnection] <3911> Extension Host Process exited with code: 0, signal: null.
+2025-01-16 01:00:31.453 [info] Cancelling previous shutdown timeout
+2025-01-16 01:00:31.454 [info] Last EH closed, waiting before shutting down
+2025-01-16 01:00:35.957 [info] [<unknown>][3e673d4f][ExtensionHostConnection] New connection established.
+2025-01-16 01:00:35.960 [info] [<unknown>][3e673d4f][ExtensionHostConnection] <4427> Launched Extension Host Process.
+2025-01-16 01:00:35.962 [info] [<unknown>][8a8aba4c][ManagementConnection] New connection established.
+2025-01-16 01:00:35.992 [info] [<unknown>][3e673d4f][ExtensionHostConnection] <4427><stderr> Error reading NLS messages file /root/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/91fbdddc47bc9c09064bf7acf133d22631cbf083/nls.messages.json: Error: ENOENT: no such file or directory, open '/root/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/91fbdddc47bc9c09064bf7acf133d22631cbf083/nls.messages.json'
+
+2025-01-16 01:00:38.327 [error] CodeExpectedError: Could not find pty 19 on pty host
+    at I.W (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at us.value (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-01-16 01:00:45.785 [info] [<unknown>][8a8aba4c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-16 01:00:45.823 [info] [<unknown>][3e673d4f][ExtensionHostConnection] <4427> Extension Host Process exited with code: 0, signal: null.
+2025-01-16 01:00:45.824 [info] Cancelling previous shutdown timeout
+2025-01-16 01:00:45.824 [info] Last EH closed, waiting before shutting down
+2025-01-16 01:00:50.053 [info] [<unknown>][6a3ec006][ExtensionHostConnection] New connection established.
+2025-01-16 01:00:50.053 [info] [<unknown>][230ea258][ManagementConnection] New connection established.
+2025-01-16 01:00:50.056 [info] [<unknown>][6a3ec006][ExtensionHostConnection] <4697> Launched Extension Host Process.
+2025-01-16 01:00:50.087 [info] [<unknown>][6a3ec006][ExtensionHostConnection] <4697><stderr> Error reading NLS messages file /root/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/91fbdddc47bc9c09064bf7acf133d22631cbf083/nls.messages.json: Error: ENOENT: no such file or directory, open '/root/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/91fbdddc47bc9c09064bf7acf133d22631cbf083/nls.messages.json'
+
