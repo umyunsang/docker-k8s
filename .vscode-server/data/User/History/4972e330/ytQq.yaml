@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: db
+spec:
+  containers:
+  - name: db
+    image: mysql
+    env:
+      - name: MYSQL_ROOT_PASSWORD
+        value: donga
+      - name: UYSDB
+        value: lunch
+      - name: ConnectUser
+        value: dbstkd

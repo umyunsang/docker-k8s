@@ -213,3 +213,43 @@ kubectl delete pod web
 exit
 cd /
 ls
+kubectl  run  web4  --image  httpd
+kubectl  get  pod
+kubectl  get  pod  --show-labels
+kubectl  label 
+kubectl  label  pod web4 version=product
+kubectl  label  pod
+kubectl  get  pod  --show-labels
+cd .git/
+ls
+cd #
+kubectl get nodes(=kubectl get no)
+kubectl   get   nodes ( = kubectl  get  no)
+kubectl  get  no  --show-labels
+kubectl  label  nodes  node1.test.com  region=seoul
+kubectl  label  nodes  node2.test.com  region=busan
+git config --global user.name "umyunsang"
+git config --global user.email "dbstkd5865@gmail.com"
+kubectl apply -f 3.y
+kubectl apply -f 3.yaml
+cd manifests/
+kubectl apply -f 3.yaml
+kubectl get po -o wide
+kubectl apply -f 3.yaml
+kubectl get po -o wide
+kubectl  run  web4  --image  httpd
+kubectl get po -o wide
+kubectl  get  po  --show-labels
+kubectl  label po web5 state-
+kubectl  label pod web5 state-
+kubectl  get  po  --show-labels
+kubectl get nodes --show-labels
+kubectl label node1.test.com region
+kubectl label nodes node1.test.com region-
+kubectl get nodes --show-labels
+kubectl delete pod --all
+kubectl get po
+kubectl delete pod 
+kubectl delete pod --all
+eixt
+exit
