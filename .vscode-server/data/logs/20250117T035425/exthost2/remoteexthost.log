@@ -960,3 +960,5 @@
 2025-01-17 07:15:24.965 [warning] [Decorations] CAPPING events from decorations provider vscode.git 688
 2025-01-17 07:15:30.013 [warning] [Decorations] CAPPING events from decorations provider vscode.git 688
 2025-01-17 07:15:35.077 [warning] [Decorations] CAPPING events from decorations provider vscode.git 688
+2025-01-17 07:15:39.922 [warning] [Decorations] CAPPING events from decorations provider vscode.git 688
+2025-01-17 08:06:11.046 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix' requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.

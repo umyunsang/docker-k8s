@@ -2,5 +2,6 @@
 # Edit at your own risk.
 # <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
 update.code.visualstudio.com	0	1	1736838579	31536000
-github.com	0	1	1737095407	31536000
-codeload.github.com	0	0	1737095408	31536000
+raw.githubusercontent.com	0	0	1737099852	31536000
+github.com	0	1	1737099448	31536000
+codeload.github.com	0	0	1737099448	31536000
