@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: quiz-deploy
+spec:
+  replicas: 5  # 초기 파드 개수
+  selector:
+    matchLabels:
+      app: nginx-testbed  # 파드의 라벨
+  template:
+    metadata:
+      labels:
+        app: nginx-testbed  # 파드의 라벨
+    spec:
+      containers:
+      - name: www  # 파드 이름
+        image: nginx:1.14  # 파드의 이미지
+        ports:
+        - containerPort: 80  # 파드의 포트 번호
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: quiz-svc  # 서비스 이름
+spec:
+  selector:
+    app: nginx-testbed  # 'nginx-testbed' 라벨을 가진 파드를 선택
+  type: ClusterIP  # 클러스터 내부에서만 접근 가능한 서비스
+  ports:
+    - port: 80        # 서비스가 노출하는 포트
+      targetPort: 80  # 파드 내부 컨테이너 포트
+      protocol: TCP

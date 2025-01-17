@@ -253,3 +253,209 @@ kubectl delete pod
 kubectl delete pod --all
 eixt
 exit
+watch -n 1 kubectl get po -o wide
+exit
+kubectl apply -f db.yaml
+cd manifests/
+kubectl apply -f db.yaml
+kubectl get po
+kubectl exec db --env
+kubectl exec db --ls /etc
+kubectl exec db -- ls /etc
+kubectl exec db -- env
+kubectl exec db -- ifconfig
+kubectl cp db:/etc/xattr.conf .
+kubectl cp db:/etc/xattr.conf ./
+kubectl cp db:/etc/xattr.conf x.conf
+ls
+kubectl cp db.yaml db:/etc/
+kubectl exec db -- ls /etc/
+kubectl exec db -- ls /etc/ | grep db.yaml
+kubectl exec -it db -- /bin/bash
+kubectl apply -f www.yaml
+kubectl get po
+echo hello > index.html
+kubectl cp ./index.html www:/usr/share/nginx/html
+kubectl get nodes
+kubectl get po -o wide
+curl http://10.244.1.3
+kubectl apply -f side.yaml
+kubectl get po
+kubectl describe po multi
+kubectl delete po --all
+kubectl get po
+kubectl get no
+kubectl describe node node1.test.com
+kubectl apply -f rs.yaml
+kubectl get po
+kubectl get po -o wid
+kubectl get po -o wide
+kubectl get rs
+kubectl scale rs myrs
+kubectl scale rs myrs --replicas 7
+kubectl scale rs myrs --replicas 2
+kubectl get rs
+kubectl delete pod myrs-bqcwh
+kubectl get rs
+kubectl apply -f rs.yaml
+kubectl get rs
+kubectl edit rs myrs
+kubectl apply -f rs.yaml
+kubectl get rs
+kubectl edit rs myrs
+kubectl get rs
+kubectl delete rs myrs
+docker info
+docker images
+docker network ls
+docker ps -a
+docker build -t nginx-custom .
+kubectl get nodes
+kubectl get all -o wide
+kubectl apply -f rs.yaml
+kubectl get all -o wide
+kubectl get rs
+kubectl get po -o wide
+kubecl get deployments
+watch -n 1 kubectl get po
+kubectl get rs -w
+kubectl get deply.rs.po
+kubectl get deploy.rs.po
+cd manifests/
+kubectl get deploy.rs.po
+kubectl get deploy,rs,po
+kubectl delete rs myrs
+kubectl get deploy,rs,po
+kubectl apply -f deply.yaml
+kubectl get deploy,rs,po
+kubectl set image deployment deply last=nginx:1.14
+kubectl set image deployment deploy last=nginx:1.14
+kubectl set image deployment mydp last=nginx:1.14
+kubectl rollout undo deploy mydp
+kubectl get deploy,rs,po
+kubectl rollout history deploy my-deployment
+kubectl rollout history deploy mydp
+kubectl rollout history deploy mydp --revisio 2
+kubectl rollout history deploy mydp --revision 2
+kubectl run www --image nginx:1.12
+kubectl delete pod www
+kubectl run web --image nginx:1.12 --label "app=websvr" --port 80
+kubectl run web --image nginx:1.12 --labels "app=websvr" --port 80
+kubectl delete -f mydp.yaml
+kubectl delete -f mydp
+kubectl delete -f deploy mydp
+kubectl get deploy
+kubectl delete deploy mydp
+kubectl apply -f cluster.yaml
+kubectl get svc
+kubectl get po -o wide
+kubectl describe svc svc
+kubectl run clientpod --image nginx
+kubectl exec -it clientpod --bash
+kubectl exec -it clientpod -- bash
+cd manifests/
+kubectl get svc -n kube-system
+kubectl get svc -n kube-system --show-labels
+kubectl get po -n kube-system
+kubectl delete svcc --all
+kubectl delete svc --all
+kubectl delete po --all
+kubectl apply -f quiz.yaml
+kubectl get svc
+kubectl get po -o wide
+kubectl run clientpod --image nginx
+kubectl exec -it clientpod -- bash
+cd #
+cd webProj/
+python3 -m venv venv
+apt install python
+python3 -m venv venv
+sudo apt install python3-venv
+python3 -m venv venv
+source venv/bin/activate
+mkdir static
+mkdir templates
+pip install flask
+pip freeze > reuqirements.txt
+docker build -t flask-uys .
+exit
+cd webProj/
+source venv/bin/activate
+docker build -t flask-uys .
+pwd
+ls
+docker build --no-cache -t flask-uys .
+exit
+cd webProj/
+pip freeze > reqirements.txt
+apt install python3-pip
+pip freeze > requirements.txt
+docker build -t flask-uys .
+Dockerfile:8
+--------------------
+ERROR: failed to solve: process "/bin/sh -c pip install --no-cache-dir -r requirements.txt" did not complete successfully: exit code: 1
+root@master:~/webProj# ls
+ls
+ll
+chmod 644 requirements.txt
+ll
+docker build -t flask-uys .
+pip search cloud-init
+pip uninstall cloud-init
+pip search cloud-init
+RUN pip install --upgrade pip
+pip install --upgrade pip
+docker build -t flask-uys .
+source venv/bin/activate
+pip freeze > requirements.txt
+docker build -t flask-uys .
+docker run -p 80:80 flask-uys
+python3 app.py
+pip install mysql-connector-python
+python3 app.py
+apt install mysql-sever
+apt update
+apt install mysql-sever
+systemctl status mysql
+sudo apt update
+sudo apt install mysql-server
+sudo systemctl start mysql
+sudo mysql_secure_installation
+mysql -u root -p
+mysql -u uys_1705817 -p
+python3 app.py 
+exit
+docker run -p 80:80 flask-uys
+sudo apt update
+sudo apt install mysql-server
+docker run -p 80:80 flask-uys
+pip install mysql-connector-python
+docker run -p 80:80 flask-uys
+exit
+docker run -p 80:80 flask-uys
+pip install mysql
+docker run -p 80:80 flask-uys
+cd webProj/
+docker run -p 80:80 flask-uys
+python3 app.py
+pip install flask
+python3 app.py 
+pip list
+source venv/bin/activate
+pip freeze > requirements.txt
+docker images
+docker delete image flask-uys
+docker rmi flask-uys
+docker rmi -f flask-uys
+docker build -t flask-uys .
+docker run -p 80:80 flask-uys
+docker image ls
+python3 app.py 
+docker ps -a
+docker rm -f $(docker ps -aq)
+docker ps -a
+docker run -p 8080:80 flask-uys
+docker rm -f flask-uys
+docker rm -f $(docker ps -aq)
+docker run -d --name uys -p 8080:80 flask-uys
+docker ps

@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: quiz-deploy
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: nginx-testbed
+  template:
+    metadata:
+      labels:
+        app: nginx-testbed
+    spec:
+      containers:
+      - name: www
+        image: nginx:1.14 
+        ports:
+        - containerPort: 80
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: quiz-svc
+spec:
+  selector:
+    app: nginx-testbed
+  type: ClusterIP
+  ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP

@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: sv3
+spec:
+  selector:
+    app: web-svc3
+  ports:
+  - port: <Port>
+    targetPort: <Target Port>

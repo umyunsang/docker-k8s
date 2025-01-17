@@ -1,0 +1,21 @@
+2025-01-17 03:54:25.920 [info] 
+
+
+
+
+2025-01-17 03:54:25.927 [info] Extension host agent started.
+2025-01-17 03:54:25.980 [info] [<unknown>][1349136f][ManagementConnection] New connection established.
+2025-01-17 03:54:25.983 [info] [<unknown>][83ec1f6b][ExtensionHostConnection] New connection established.
+2025-01-17 03:54:26.232 [info] [<unknown>][83ec1f6b][ExtensionHostConnection] <107109> Launched Extension Host Process.
+2025-01-17 03:54:28.428 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-01-17 03:54:32.537 [info] [<unknown>][1349136f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-17 03:54:32.573 [info] [<unknown>][83ec1f6b][ExtensionHostConnection] <107109> Extension Host Process exited with code: 0, signal: null.
+2025-01-17 03:54:32.574 [info] Cancelling previous shutdown timeout
+2025-01-17 03:54:32.574 [info] Last EH closed, waiting before shutting down
+2025-01-17 03:54:36.092 [info] [<unknown>][6db8ebb0][ManagementConnection] New connection established.
+2025-01-17 03:54:36.097 [info] [<unknown>][50858e2c][ExtensionHostConnection] New connection established.
+2025-01-17 03:54:36.100 [info] [<unknown>][50858e2c][ExtensionHostConnection] <107362> Launched Extension Host Process.
+2025-01-17 03:59:32.575 [info] New EH opened, aborting shutdown
+2025-01-17 03:59:32.577 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///root/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/server-main.js:184:1060)
+    at process.emit (node:events:530:35)

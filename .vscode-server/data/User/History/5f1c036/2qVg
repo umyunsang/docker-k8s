@@ -1,0 +1,17 @@
+FROM python:3.9-slim
+
+WORKDIR /app
+
+# pip 최신 버전으로 업데이트
+RUN pip install --upgrade pip
+
+COPY requirements.txt requirements.txt
+
+# requirements.txt에 있는 패키지 설치
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+EXPOSE 80
+
+CMD ["python", "app.py"]

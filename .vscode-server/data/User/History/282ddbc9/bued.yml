@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: flask-pjk_241110
+    ports:
+      - "15001:15001"
+    depends_on:
+      - db
+    networks:
+      - app-network
+
+  db:
+    image: mysql:latest
+    container_name: mysql-pjk_241110
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: course_management
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro  # 초기화 SQL 파일 마운트
+    ports:
+      - "13306:3306"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
